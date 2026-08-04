@@ -324,3 +324,394 @@ color:#cccccc;
 background:#0b0b0b;
 
 }
+/* =========================
+   TOKEN
+========================= */
+
+.token-card{
+
+max-width:850px;
+
+margin:40px auto 0;
+
+background:#111111;
+
+border:1px solid rgba(212,175,55,.15);
+
+border-radius:18px;
+
+padding:45px;
+
+text-align:center;
+
+transition:.35s;
+
+}
+
+.token-card:hover{
+
+transform:translateY(-6px);
+
+border-color:#d4af37;
+
+box-shadow:0 18px 45px rgba(212,175,55,.18);
+
+}
+
+.token-card h3{
+
+font-size:30px;
+
+color:#d4af37;
+
+margin-bottom:20px;
+
+}
+
+.token-card p{
+
+margin:12px 0;
+
+color:#d4d4d4;
+
+}
+
+.contract-box{
+
+margin-top:30px;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+gap:18px;
+
+flex-wrap:wrap;
+
+background:#1a1a1a;
+
+padding:20px;
+
+border-radius:12px;
+
+}
+
+.contract-box span{
+
+font-size:15px;
+
+color:#f2f2f2;
+
+word-break:break-all;
+
+}
+
+.contract-box button{
+
+padding:12px 22px;
+
+background:#d4af37;
+
+border:none;
+
+border-radius:8px;
+
+font-weight:bold;
+
+cursor:pointer;
+
+transition:.3s;
+
+}
+
+.contract-box button:hover{
+
+background:#f2c14e;
+
+}
+
+
+/* =========================
+   ECOSYSTEM
+========================= */
+
+.cards{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+gap:30px;
+
+margin-top:60px;
+
+}
+
+.card{
+
+background:#111111;
+
+padding:35px;
+
+border-radius:18px;
+
+border:1px solid rgba(255,255,255,.08);
+
+transition:.35s;
+
+}
+
+.card:hover{
+
+transform:translateY(-8px);
+
+border-color:#d4af37;
+
+box-shadow:0 18px 40px rgba(212,175,55,.18);
+
+}
+
+.card h3{
+
+font-size:28px;
+
+color:#d4af37;
+
+margin-bottom:18px;
+
+}
+
+.card p{
+
+color:#cccccc;
+
+line-height:1.7;
+
+}
+
+.card a{
+
+display:inline-block;
+
+margin-top:18px;
+
+color:#d4af37;
+
+font-weight:bold;
+
+}
+
+
+/* =========================
+   ROADMAP
+========================= */
+
+.timeline{
+
+max-width:900px;
+
+margin:70px auto;
+
+position:relative;
+
+}
+
+.timeline::before{
+
+content:"";
+
+position:absolute;
+
+left:25px;
+
+top:0;
+
+bottom:0;
+
+width:2px;
+
+background:#d4af37;
+
+}
+
+.timeline-item{
+
+position:relative;
+
+margin-left:70px;
+
+margin-bottom:45px;
+
+background:#111111;
+
+padding:22px 28px;
+
+border-radius:12px;
+
+border:1px solid rgba(255,255,255,.08);
+
+transition:.3s;
+
+}
+
+.timeline-item:hover{
+
+border-color:#d4af37;
+
+transform:translateX(6px);
+
+}
+
+.timeline-item::before{
+
+content:"";
+
+position:absolute;
+
+left:-57px;
+
+top:24px;
+
+width:18px;
+
+height:18px;
+
+background:#d4af37;
+
+border-radius:50%;
+
+box-shadow:0 0 20px rgba(212,175,55,.5);
+
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+footer{
+
+background:#070707;
+
+border-top:1px solid rgba(255,255,255,.08);
+
+padding:35px 0;
+
+text-align:center;
+
+}
+
+footer p{
+
+color:#999999;
+
+font-size:15px;
+
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media(max-width:900px){
+
+header .container{
+
+flex-direction:column;
+
+gap:18px;
+
+}
+
+nav ul{
+
+flex-wrap:wrap;
+
+justify-content:center;
+
+gap:18px;
+
+}
+
+.hero{
+
+justify-content:center;
+
+text-align:center;
+
+}
+
+.hero-content{
+
+margin:0 auto;
+
+padding:0 20px;
+
+text-align:center;
+
+}
+
+.hero-logo{
+
+margin:0 auto 25px;
+
+}
+
+.hero h1{
+
+font-size:48px;
+
+}
+
+.hero h2{
+
+font-size:24px;
+
+}
+
+.hero p{
+
+font-size:18px;
+
+margin-left:auto;
+
+margin-right:auto;
+
+}
+
+.hero-buttons{
+
+justify-content:center;
+
+}
+
+.timeline{
+
+margin-left:10px;
+
+margin-right:10px;
+
+}
+
+.timeline::before{
+
+left:15px;
+
+}
+
+.timeline-item{
+
+margin-left:45px;
+
+}
+
+.timeline-item::before{
+
+left:-47px;
+
+}
+
+}
