@@ -1,134 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Atlas DAO</title>
 
-<style>
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial,Helvetica,sans-serif;
-}
+<title>Atlas DAO | Build • Invest • Grow • Together</title>
 
-body{
-background:#050505;
-color:white;
-}
+<meta name="description" content="Atlas DAO is a decentralized investment ecosystem built for long-term value, transparency, and shared success.">
 
-.hero{
-height:100vh;
-background:
-linear-gradient(rgba(0,0,0,.72),rgba(0,0,0,.72)),
-url("hero.jpg");
-background-size:cover;
-background-position:center;
-display:flex;
-align-items:center;
-justify-content:center;
-text-align:center;
-padding:30px;
-}
+<meta name="keywords" content="Atlas DAO, ATC, Crypto, DAO, Blockchain, DeFi, BEP20">
 
-.content{
-max-width:900px;
-}
+<meta name="author" content="Atlas DAO">
 
-.logo{
-width:170px;
-margin-bottom:30px;
-}
+<meta property="og:title" content="Atlas DAO">
+<meta property="og:description" content="Build • Invest • Grow • Together">
+<meta property="og:image" content="hero.jpg">
+<meta property="og:type" content="website">
 
-h1{
-font-size:64px;
-color:#f2c14e;
-margin-bottom:20px;
-}
+<link rel="icon" href="logo.png">
 
-h2{
-font-size:26px;
-margin-bottom:25px;
-font-weight:normal;
-}
-
-p{
-font-size:20px;
-line-height:1.7;
-margin-bottom:40px;
-color:#ddd;
-}
-
-.buttons{
-display:flex;
-justify-content:center;
-flex-wrap:wrap;
-gap:20px;
-}
-
-a.button{
-padding:16px 34px;
-border-radius:8px;
-background:#d4af37;
-color:#000;
-text-decoration:none;
-font-weight:bold;
-transition:.3s;
-}
-
-a.button:hover{
-background:white;
-}
-
-.info{
-background:#111;
-padding:70px 20px;
-text-align:center;
-}
-
-.info h3{
-font-size:38px;
-margin-bottom:25px;
-color:#f2c14e;
-}
-
-.contract{
-font-size:18px;
-word-break:break-all;
-margin-top:25px;
-color:#ddd;
-}
-</style>
+<link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
 
-<section class="hero">
+<header>
 
-<div class="content">
+<div class="container">
+
+<div class="logo">
+ATLAS DAO
+</div>
+
+<nav>
+
+<ul>
+
+<li><a href="#home">Home</a></li>
+
+<li><a href="#token">ATC Token</a></li>
+
+<li><a href="#ecosystem">Ecosystem</a></li>
+
+<li><a href="#roadmap">Roadmap</a></li>
+
+<li><a href="#community">Community</a></li>
+
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+</nav>
+
+</div>
+
+</header>
+
+<section id="home" class="hero">
+
+<div class="overlay"></div>
+
+<div class="hero-content">
+
+<img src="logo.png" alt="Atlas DAO Logo" class="hero-logo">
 
 <h1>ATLAS DAO</h1>
 
 <h2>Build • Invest • Grow • Together</h2>
 
 <p>
-Atlas DAO is a decentralized investment ecosystem built for long-term value, transparency, and shared success.
+Atlas DAO is a decentralized investment ecosystem built for long-term value,
+transparency, and shared success.
 </p>
 
-<div class="buttons">
+<div class="hero-buttons">
 
-<a class="button"
-href="https://t.me/dao_atlas"
-target="_blank">
-Telegram
+<a href="#ecosystem" class="btn btn-gold">
+Explore Ecosystem
 </a>
 
-<a class="button"
-href="https://github.com/AtlasDAO-org/atlasdao.org"
-target="_blank">
-GitHub
+<a href="#token" class="btn btn-outline">
+ATC Token
 </a>
 
 </div>
@@ -137,23 +92,189 @@ GitHub
 
 </section>
 
-<section class="info">
+<section id="token" class="section">
 
-<h3>ATC Token</h3>
+<div class="container">
 
-<p>
+<h2>ATC Token</h2>
+
+<p class="section-text">
 Official utility token of the Atlas DAO ecosystem.
 </p>
 
-<div class="contract">
+<div class="token-card">
 
-Contract:<br><br>
+<h3>BEP-20</h3>
 
+<p><strong>Network:</strong> BNB Smart Chain</p>
+
+<p><strong>Contract:</strong></p>
+
+<div class="contract-box">
+
+<span id="contract">
 0x1fee92c11f4ec901b60c37d40b36e3a57fe8260c
+</span>
+
+<button id="copyButton">
+Copy
+</button>
+
+</div>
+
+</div>
 
 </div>
 
 </section>
+
+<section id="ecosystem" class="section dark">
+
+<div class="container">
+
+<h2>Ecosystem</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>Build</h3>
+
+<p>
+Create decentralized products and tools.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Invest</h3>
+
+<p>
+Support sustainable blockchain innovation.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Grow</h3>
+
+<p>
+Expand together with the community.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Together</h3>
+
+<p>
+Transparency, governance and shared success.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="roadmap" class="section">
+
+<div class="container">
+
+<h2>Roadmap</h2>
+
+<div class="timeline">
+
+<div class="timeline-item">
+Foundation
+</div>
+
+<div class="timeline-item">
+Website Launch
+</div>
+
+<div class="timeline-item">
+Documentation
+</div>
+
+<div class="timeline-item">
+Community Growth
+</div>
+
+<div class="timeline-item">
+Exchange Listings
+</div>
+
+<div class="timeline-item">
+Ecosystem Expansion
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="community" class="section dark">
+
+<div class="container">
+
+<h2>Community</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>Telegram</h3>
+
+<a href="https://t.me/dao_atlas" target="_blank">
+Join Community
+</a>
+
+</div>
+
+<div class="card">
+
+<h3>GitHub</h3>
+
+<a href="https://github.com/AtlasDAO-org/atlasdao.org" target="_blank">
+Open Repository
+</a>
+
+</div>
+
+<div class="card" id="contact">
+
+<h3>Email</h3>
+
+<a href="mailto:contact@atlasdao.org">
+contact@atlasdao.org
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<div class="container">
+
+<p>© 2026 Atlas DAO. All rights reserved.</p>
+
+</div>
+
+</footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
